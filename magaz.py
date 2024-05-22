@@ -46,11 +46,11 @@ south_store.add_item("сливы", 550)
 print(f"Товары в магазине {central_store.name} до изменений: {central_store.items}")
 
 # Добавление товара
-central_store.add_item("лимоны", 0.4)
+central_store.add_item("лимоны", 1400)
 print(f"Товары после добавления лимонов: {central_store.items}")
 
 # Обновление цены
-central_store.update_price("бананы", 0.65)
+central_store.update_price("бананы", 388)
 print(f"Товары после обновления цены на бананы: {central_store.items}")
 
 # Удаление товара

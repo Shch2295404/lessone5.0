@@ -4,8 +4,14 @@ class Store:
         self.address = address
         self.items = {}
 
-    def add_item(self, item_name, price):
-        self.items[item_name] = price
+    def add_item(self, item_name, start_price):
+        self.items[item_name] = start_price
+
+#    Добавляет товар в инвентарь магазина.
+#    Параметры:
+#    item_name(str): Название добавляемого предмета.
+#    start_price(float): стартовая цена товара.
+#    None: Нет
 
     def remove_item(self, item_name):
         if item_name in self.items:

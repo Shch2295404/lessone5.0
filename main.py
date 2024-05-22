@@ -62,3 +62,7 @@ if __name__ == "__main__":
     for task in pending_tasks:
         print(task)
 
+    # Отметить все задачи как выполненные
+    for task in manager.tasks:
+        task.mark_as_done()
+    print(manager)

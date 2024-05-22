@@ -51,6 +51,7 @@ print(f"Товары после добавления лимонов: {central_st
 
 # Обновление цены
 central_store.update_price("бананы", 388)
+central_store.update_price("апельсины", 488)
 print(f"Товары после обновления цены на бананы: {central_store.items}")
 
 # Удаление товара
